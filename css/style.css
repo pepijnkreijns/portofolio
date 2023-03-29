@@ -158,42 +158,43 @@ div#portofolio {
 div.placeholder {
     width: calc(40%);
     height: calc(40%);
-    margin-right: 30px;
-    margin-top: 30px;
-    border: 5px solid black;
-}
-
-div.placeholder:hover {
-    transform: scale(1.03);
-}
-
-#holder1 {
-    float: right;
-    background-image: url(../img/mockup-labyrint3.jpg);
+    border: 2px solid black;
+    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%
 }
 
+div.placeholder:hover {
+    transform: scale(1.03);
+    box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#holder1 {
+    float: left;
+    margin-left: 60px;
+    background-image: url(../img/jtnlogo.jpg);
+}
+
 #holder2 {
     float: right;
+    background-image: url(../img/logolaby.jpg);
 }
 
 #holder3 {
     float: left;
+    margin-left: 60px;
+    background-image: url(../img/terra.jpg);
 }
 
 #holder4 {
-    float: left;
+    float: right;
 }
 
 .wrapper {
-    height: calc(100vh * 0.9);
+    height: calc(100vh * 0.8);
     width: calc(100vw - 90px);
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 50%;
-    transform: translate(-50%, 0);
+    margin-top: 100px;
 }
 
 
