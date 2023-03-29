@@ -88,13 +88,36 @@ h1 {
 
 img {
     width: calc(100vh * 0.3);
-    position: relative;
     top: calc(20vh);
 }
 
-#scene0 h3 {
-    position: relative;
-    top: calc(20vh);
+#PEP-LINKS {
+    float: left;
+    margin-top: 20vh;
+}
+
+h4 {
+    font-family: Dubai-Bold;
+    font-size: 23px;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Dubai-Light;
+}
+
+#PEP-RECHTS p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#PEP-RECHTS {
+    font-family: Dubai-Regular;
+    float: left;
+    margin-top: 20vh;
+    margin-left: 30px;
+    width: 30vw;
 }
 
 
