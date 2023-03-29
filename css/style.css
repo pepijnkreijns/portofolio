@@ -86,38 +86,35 @@ h1 {
 
 /* pepijn kreijns css */
 
-img {
-    width: calc(100vh * 0.3);
-    top: calc(20vh);
-}
-
 #PEP-LINKS {
     float: left;
-    margin-top: 20vh;
+    width: calc(50vw - 75px);
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+#PEP-RECHTS {
+    float: right;
+    margin-right: 60px;
+    width: calc(50vw - 75px);
 }
 
 h4 {
     font-family: Dubai-Bold;
     font-size: 23px;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-family: Dubai-Light;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 ul {
-    margin-top: 10px;
-    margin-bottom: 30px;
     font-family: Dubai-Light;
-}
-
-#PEP-RECHTS p {
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
-#PEP-RECHTS {
-    font-family: Dubai-Regular;
-    float: left;
-    margin-top: 20vh;
-    margin-left: 30px;
-    width: 30vw;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 
@@ -134,8 +131,8 @@ div#aboutme-section {
     font-weight: 700;
     font-size: 23px;
     font-family: Dubai-Bold;
-    float: left;
-    margin-top: 30px;
+    position: relative;
+    top: 30px;
     margin-left: 60px;
 }
 
@@ -330,6 +327,18 @@ p {
     .kopje {
         font-size: 20px;
     }
+    img {
+        width: calc(100vw * 0.1);
+    }
+    h4 {
+        font-size: 20px;
+    }
+    ul {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -338,6 +347,15 @@ p {
     }
     .kopje {
         font-size: 18px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    ul {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 16px;
     }
 }
 
@@ -353,6 +371,16 @@ p {
     }
     .big-logo {
         height: 30vh;
+    }
+    h4 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    ul {
+        font-size: 11px;
+    }
+    h6 {
+        font-size: 11px;
     }
 }
 
