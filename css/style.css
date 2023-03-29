@@ -1,0 +1,355 @@
+.scene {
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    background: none;
+    color: black;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: Dubai-Regular;
+    src: url(../font/Dubai-Regular.otf);
+}
+
+@font-face {
+    font-family: Dubai-Bold;
+    src: url(../font/Dubai-Bold.otf);
+}
+
+@font-face {
+    font-family: Dubai-Light;
+    src: url(../font/Dubai-Light.otf);
+}
+
+
+/* header css */
+
+#start {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    position: relative;
+    font-size: 128px;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-family: Dubai-Bold;
+}
+
+
+/* linkjes css */
+
+#start button {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Dubai-Bold;
+}
+
+.top-left {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.top-right {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    text-align: right;
+}
+
+.below-left {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.below-right {
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    text-align: right;
+}
+
+
+/* pepijn kreijns css */
+
+img {
+    width: calc(100vh * 0.3);
+    position: relative;
+    top: calc(20vh);
+}
+
+#scene0 h3 {
+    position: relative;
+    top: calc(20vh);
+}
+
+
+/* aboutme-section css */
+
+div#aboutme-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.kopje {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Dubai-Bold;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Dubai-Bold;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+
+/* portofolio css */
+
+div#portofolio {
+    width: 100vw;
+    height: 100vh;
+}
+
+div.placeholder {
+    width: calc(40%);
+    height: calc(40%);
+    margin-right: 30px;
+    margin-top: 30px;
+    border: 5px solid black;
+}
+
+div.placeholder:hover {
+    transform: scale(1.03);
+}
+
+#holder1 {
+    float: right;
+    background-image: url(../img/mockup-labyrint3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%
+}
+
+#holder2 {
+    float: right;
+}
+
+#holder3 {
+    float: left;
+}
+
+#holder4 {
+    float: left;
+}
+
+.wrapper {
+    height: calc(100vh * 0.9);
+    width: calc(100vw - 90px);
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+/* Project 03 */
+
+.projectcss {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Dubai-Bold;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: lightgrey;
+}
+
+.container-mid {
+    width: calc(100vw - 120px);
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Dubai-Bold;
+    font-size: 64px;
+    margin-top: 30px;
+}
+
+p {
+    font-family: Dubai-Light;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.big-logo {
+    margin-top: 30px;
+    width: 48%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%
+}
+
+#CBS1 {
+    float: left;
+    background-image: url(../img/Multimedia\ Story\ -\ Kaart.png);
+}
+
+#CBS2 {
+    float: right;
+    background-image: url(../img/Multimedia\ Story\ -\ Tussenstand\ batterij.png);
+}
+
+#CBS3 {
+    float: left;
+    background-image: url(../img/Multimedia\ Story\ -\ Kaart\ –\ 4.png);
+}
+
+#CBS4 {
+    float: right;
+    background-image: url(../img/Multimedia\ Story\ -\ Modal\ pop-up.png);
+}
+
+
+/* project 02 */
+
+#LABY1 {
+    float: left;
+    background-image: url(../img/mockup-labyrint3.jpg);
+}
+
+#LABY2 {
+    float: right;
+    background-image: url(../img/mockup-labyrint4.png);
+}
+
+#LABY3 {
+    float: left;
+    background-image: url(../img/moackup-labyrint2.png);
+}
+
+#LABY4 {
+    float: right;
+    background-image: url(../img/mockup-labyrint1.png);
+}
+
+
+/* project 4 */
+
+#SHCL1 {
+    float: left;
+    background-image: url(../img/posters\ SHCL.png);
+}
+
+#SHCL2 {
+    float: right;
+    background-image: url(../img/Kreijns_Pepijn-Salobir_Karen-teamC6-vd-6_pdf\ 2.jpg);
+}
+
+#SHCL3 {
+    float: left;
+    background-image: url(../img/moackup-labyrint2.png);
+}
+
+#SHCL4 {
+    float: right;
+    background-image: url(../img/mockup-labyrint1.png);
+}
+
+
+/* responsive css */
+
+@media screen and (max-width: 1300px) {
+    h1 {
+        font-size: 100px;
+    }
+    .big-logo {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 80px;
+    }
+    #start button {
+        font-size: 20px;
+    }
+    .kopje {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #start button {
+        font-size: 18px;
+    }
+    .kopje {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+    }
+    #start button {
+        font-size: 16px;
+    }
+    .kopje {
+        font-size: 16px;
+    }
+    .big-logo {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 50px;
+    }
+    .big-logo {
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    h1 {
+        font-size: 30px;
+    }
+    #start button {
+        font-size: 12px;
+    }
+    .kopje {
+        font-size: 12px;
+    }
+}
