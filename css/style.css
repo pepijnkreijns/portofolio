@@ -32,6 +32,22 @@ button {
 
 /* header css */
 
+.big-foto {
+    width: 50vw;
+    float: left;
+    background-color: #E8EAED;
+}
+
+.big-foto {
+    width: 50vw;
+    height: 100vh;
+    float: right;
+    background-image: url(../img/pasfoto.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%
+}
+
 #start {
     width: 100vw;
     height: 100vh;
@@ -68,6 +84,7 @@ h1 {
     top: 30px;
     right: 60px;
     text-align: right;
+    color: white;
 }
 
 .below-left {
@@ -189,6 +206,7 @@ div.placeholder:hover {
 
 #holder4 {
     float: right;
+    background-image: url(../img/LIKLOGO.jpg);
 }
 
 .wrapper {
@@ -215,7 +233,7 @@ header {
 }
 
 .container-mid {
-    width: calc(100vw - 120px);
+    width: calc(100vw - 30vw);
     margin: 0 auto;
 }
 
@@ -298,12 +316,42 @@ p {
 
 #SHCL3 {
     float: left;
-    background-image: url(../img/moackup-labyrint2.png);
+    background-image: url(../img/lik.png);
 }
 
 #SHCL4 {
     float: right;
-    background-image: url(../img/mockup-labyrint1.png);
+    background-image: url(../img/shirt.jpg);
+}
+
+img {
+    width: 10vw;
+    float: left;
+    margin-top: 10vh;
+}
+
+
+/* 
+project 1 */
+
+#JTN1 {
+    float: left;
+    background-image: url(../img/JTNOUD.jpg);
+}
+
+#JTN2 {
+    float: right;
+    background-image: url(../img/JTNNIEUW.jpg);
+}
+
+#JTN3 {
+    float: left;
+    background-image: url(../img/_MG_9758-3.jpg);
+}
+
+#JTN4 {
+    float: right;
+    background-image: url(../img/Postcard\ Mockup.png);
 }
 
 
