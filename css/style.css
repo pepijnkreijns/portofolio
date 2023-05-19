@@ -1,3 +1,7 @@
+.overflow-body {
+    overflow-y: hidden;
+}
+
 .scene {
     width: 100vw;
     height: 100vh;
@@ -173,10 +177,12 @@ div#portofolio {
 }
 
 div.placeholder {
-    width: calc(40%);
+    width: calc(30%);
     height: calc(40%);
-    border: 2px solid black;
+    float: right;
+    border: 0px solid black;
     margin-bottom: 30px;
+    margin-left: calc(2%);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%
@@ -184,35 +190,29 @@ div.placeholder {
 
 div.placeholder:hover {
     transform: scale(1.03);
-    box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 0.5px solid black;
 }
 
 #holder1 {
-    float: left;
-    margin-left: 60px;
     background-image: url(../img/jtnlogo.jpg);
 }
 
 #holder2 {
-    float: right;
     background-image: url(../img/logolaby.jpg);
 }
 
 #holder3 {
-    float: left;
-    margin-left: 60px;
     background-image: url(../img/terra.jpg);
 }
 
 #holder4 {
-    float: right;
     background-image: url(../img/LIKLOGO.jpg);
 }
 
 .wrapper {
     height: calc(100vh * 0.8);
     width: calc(100vw - 90px);
-    margin-top: 100px;
+    margin-top: calc(10%);
 }
 
 
